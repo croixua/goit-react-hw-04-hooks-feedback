@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  background-color: rgb(216, 228, 228);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 250ms ease-in;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.btn:hover {
+  background-color: rgb(181, 217, 248);
+}
+
+.btn:active {
+  background-color: rgb(130, 196, 254);
+}
